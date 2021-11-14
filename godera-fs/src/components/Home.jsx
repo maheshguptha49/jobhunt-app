@@ -100,59 +100,33 @@ export const Home = () => {
           <button>Search</button>
         </div>
         <div className="card flex">
-          <div className="card-image">
-            <div className="card-content flex">
-              <h1>Executive Producer</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                odio tempora quis laborum, itaque optio obcaecati mollitia.
-                Atque, neque, saepe adipisci officiis nisi sed, corporis
-                incidunt maxime vel deleniti modi!
-              </p>
-              <button>View Details</button>
-            </div>
+          <div className="card-image"></div>
+          <div className="card-content flex">
+            <h1>Executive Producer</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo odio
+            </p>
+            <button>View Details</button>
           </div>
         </div>
         <div className="card flex">
-          <div className="card-image">
-            <div className="card-content flex">
-              <h1>Executive Producer</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                odio tempora quis laborum, itaque optio obcaecati mollitia.
-                Atque, neque, saepe adipisci officiis nisi sed, corporis
-                incidunt maxime vel deleniti modi!
-              </p>
-              <button>View Details</button>
-            </div>
+          <div className="card-image"></div>
+          <div className="card-content flex">
+            <h1>Executive Producer</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo odio
+            </p>
+            <button>View Details</button>
           </div>
         </div>
         <div className="card flex">
-          <div className="card-image">
-            <div className="card-content flex">
-              <h1>Executive Producer</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                odio tempora quis laborum, itaque optio obcaecati mollitia.
-                Atque, neque, saepe adipisci officiis nisi sed, corporis
-                incidunt maxime vel deleniti modi!
-              </p>
-              <button>View Details</button>
-            </div>
-          </div>
-        </div>
-        <div className="card flex">
-          <div className="card-image">
-            <div className="card-content flex">
-              <h1>Executive Producer</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                odio tempora quis laborum, itaque optio obcaecati mollitia.
-                Atque, neque, saepe adipisci officiis nisi sed, corporis
-                incidunt maxime vel deleniti modi!
-              </p>
-              <button>View Details</button>
-            </div>
+          <div className="card-image"></div>
+          <div className="card-content flex">
+            <h1>Executive Producer</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo odio
+            </p>
+            <button>View Details</button>
           </div>
         </div>
       </section>
