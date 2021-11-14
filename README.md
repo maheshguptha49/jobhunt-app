@@ -1,12 +1,16 @@
 Goodera-assesment
 Full stack web app.
 
-Technology Stack Used 💻 In this project I have used the following tech stack.
-
-React Mongodb Nodejs express Html css
-used Mongodb atlas
+Technology Stack Used 💻:React Mongodb Nodejs express Html css
+<br>
+used Mongodb atlas for cloud db
+<br>
 dependencies:axios and react-router-dom in frontend,express and mongoose in backend
-For start 
+<br>
+To start the app 
+<br>
 clone the repo 
-frontend:navigate godera-fs folder and do npm start
-backend:navigate backend folder and do npm start
+<br>
+frontend:navigate to godera-fs folder and do npm start
+<br>
+backend:navigate to backend folder and do npm start
