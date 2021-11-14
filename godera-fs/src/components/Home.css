@@ -6,13 +6,19 @@
   text-decoration: none;
   font-size: 14px;
 }
-
+input{
+  outline: transparent;
+}
 .flex-pr {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header {
   background-image: linear-gradient(to left, #5db0df, #5d7adf);
   height: 300px;

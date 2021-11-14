@@ -5,13 +5,20 @@ import "./Home.css";
 import { useEffect, useState } from "react";
 export const Home = () => {
   const [data, setData] = useState([]);
+  const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     getData();
   }, []);
   async function getData() {
-    const { data } = await axios.get("http://localhost:8000/jobs");
-    console.log(data);
-    setData(data);
+    try {
+      const { data } = await axios.get("http://localhost:8000/jobs");
+      console.log(data);
+      setData(data);
+      setLoading(false);
+    } catch (error) {
+      setError(true);
+    }
   }
   return (
     <>
@@ -61,12 +68,15 @@ export const Home = () => {
             </svg>
             <select>
               <option value="Select location">Select location</option>
+              <option value="Banglore">Banglore</option>
+              <option value="Hyderabad">Hyderabad</option>
+              <option value="Mumbai">Mumbai</option>
             </select>
           </div>
           <button>Search</button>
         </div>
         {data.map((item) => {
-          return <Card key={item.id} {...item} />;
+          return <Card key={item._id} {...item} />;
         })}
       </section>
     </>

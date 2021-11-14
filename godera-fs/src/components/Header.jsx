@@ -22,23 +22,25 @@ export const Header = () => {
               stroke-linejoin="round"
             />
           </svg>
-          <h1>JobHunt</h1>
+          <Link to="/">
+            <h1>JobHunt</h1>
+          </Link>
         </div>
         <menu className="menu-box flex-pr">
           <ul className="flex-pr">
             <li>
-              <Link>Find Jobs</Link>
+              <Link to="/">Find Jobs</Link>
             </li>
             <li>
-              <Link>Upskill Yourself</Link>
+              <Link to="#">Upskill Yourself</Link>
             </li>
           </ul>
           <ul className="flex-pr">
             <li>
-              <Link>Post a job</Link>
+              <Link to="#">Post a job</Link>
             </li>
             <li>
-              <Link>Sign in</Link>
+              <Link to="#">Sign in</Link>
             </li>
           </ul>
         </menu>
